@@ -418,10 +418,19 @@
 /*** Team ***/
 .team-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+	
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  
 }
 
 .team-item img {
     transition: .5s;
+	max-width:350px;
 }
 
 .team-item:hover img {
